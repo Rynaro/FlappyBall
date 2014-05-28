@@ -1,0 +1,51 @@
+body{
+  width: 100%;
+  background: #393D48;
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  color: #d7ceb2;
+  font-size: 64px;
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  text-shadow: 3px 3px 0px #2c2e38, 5px 5px 0px #5c5f72;
+}
+
+p{
+  color: #d7ceb2;
+  font-family: 'Lobster', cursive;
+  font-size: 24px;
+  text-align: center;
+}
+.canvas-container{
+  width: 100%;
+  height: auto;
+}
+
+canvas{
+  width: 800px;
+  padding-left: 0;
+  padding-right: 0;
+  margin: 30px auto 20px auto;
+  display: block;
+  border-radius: 3px;
+  border: 2px solid #ecf0f1;
+}
+
+.bottom{
+  color: #ecf0f1;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.bottom a{
+  color: #ecf0f1;
+  text-decoration: underline;
+}
+
+.sub{
+  font-size: 12px;
+}
