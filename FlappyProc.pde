@@ -129,7 +129,7 @@ class Circle {
       game_status++;
     }
     for(int i = 0; i < n_pillars; i++){
-      if((xCoord < pillar[i].xCoord+10 && xCoord > pillar[i].xCoord-10) && (yCoord < pillar[i].fissure-100 || yCoord > pillar[i].fissure+100)){
+      if((xCoord < pillar[i].xCoord+15 && xCoord > pillar[i].xCoord-15) && (yCoord < pillar[i].fissure-85 || yCoord > pillar[i].fissure+85)){
         game_status++;
       } 
     }
